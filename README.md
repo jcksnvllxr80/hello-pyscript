@@ -3,6 +3,10 @@
 Run Python in your Browser without having python installed on your local machine.
 For more information visit [here](https://realpython.com/pyscript-python-in-browser/)
 
+more cool ways to use pyscript [here](https://datasciencesphere.com/project/pyscript-python-html-complete-tutorial/) and [here](https://blog.logrocket.com/pyscript-run-python-browser/)
+
+This repo has a few examples of ways py-script can be used.
+
 ---
 
 ## Make sure your server is running:
