@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style> 
+    input[type=number] {
+      width: 250px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+    }
+
+    input[type=text]:focus {
+      border: 3px solid #555;
+    }
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X mod Y</title>
+  <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+</head>
+<body>
+  <label for="num1">Number 1:</label><br>
+  <input type="number" id="num1" name="num1"><br><br>
+  <label for="num2">Number 2:</label><br>
+  <input type="number" id="num2" name="num2"><br><br>
+  <p>Click the "Go" button to calculate "Number 1" % "Number 2".</p><br>
+  <button id="go-btn" class="bg-blue-500 text-white" pys-onClick="x_mod_y">Go</button><br><br>
+  <div id="output"></div>
+  <py-script src="./math_funcs.py"></py-script>
+</body>
+</html>
